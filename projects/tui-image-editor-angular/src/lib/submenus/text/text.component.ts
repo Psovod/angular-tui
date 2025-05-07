@@ -10,9 +10,10 @@ import { defaultColors, eventNames } from '../../consts';
 import { getActiveObjectId } from '../../utils';
 
 @Component({
-  selector: 'tui-image-editor-submenus-text',
-  templateUrl: './text.component.html',
-  styleUrls: ['./text.component.css'],
+    selector: 'tui-image-editor-submenus-text',
+    templateUrl: './text.component.html',
+    styleUrls: ['./text.component.css'],
+    standalone: false
 })
 export class TextComponent implements OnChanges, OnDestroy {
   @Input() imageEditor: any;

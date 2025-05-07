@@ -1,9 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'tui-image-editor-submenus-flip',
-  templateUrl: './flip.component.html',
-  styleUrls: ['./flip.component.css'],
+    selector: 'tui-image-editor-submenus-flip',
+    templateUrl: './flip.component.html',
+    styleUrls: ['./flip.component.css'],
+    standalone: false
 })
 export class FlipComponent {
   @Input() imageEditor: any;

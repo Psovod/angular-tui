@@ -1,9 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-zoom-out',
-  templateUrl: './zoom-out.component.html',
-  styleUrls: ['./zoom-out.component.css'],
+    selector: 'tui-image-editor-menus-buttons-zoom-out',
+    templateUrl: './zoom-out.component.html',
+    styleUrls: ['./zoom-out.component.css'],
+    standalone: false
 })
 export class ZoomOutComponent {
   @Input() imageChosen: boolean;

@@ -11,9 +11,10 @@ import { cropModes, eventNames, historyNames } from '../../consts';
 import { isEmptyCropzone } from '../../utils';
 
 @Component({
-  selector: 'tui-image-editor-submenus-crop',
-  templateUrl: './crop.component.html',
-  styleUrls: ['./crop.component.css'],
+    selector: 'tui-image-editor-submenus-crop',
+    templateUrl: './crop.component.html',
+    styleUrls: ['./crop.component.css'],
+    standalone: false
 })
 export class CropComponent implements OnChanges {
   @Input() imageEditor: any;

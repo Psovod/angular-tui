@@ -11,9 +11,10 @@ import { defaultColors, eventNames } from '../../consts';
 import { clearSelection, getActiveObjectId } from '../../utils';
 
 @Component({
-  selector: 'tui-image-editor-submenus-icon',
-  templateUrl: './icon.component.html',
-  styleUrls: ['./icon.component.css'],
+    selector: 'tui-image-editor-submenus-icon',
+    templateUrl: './icon.component.html',
+    styleUrls: ['./icon.component.css'],
+    standalone: false
 })
 export class IconComponent implements OnChanges, OnDestroy {
   @Input() imageEditor: any;

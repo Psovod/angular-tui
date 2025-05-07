@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-crop',
-  templateUrl: './crop.component.html',
-  styleUrls: ['./crop.component.css'],
+    selector: 'tui-image-editor-menus-buttons-crop',
+    templateUrl: './crop.component.html',
+    styleUrls: ['./crop.component.css'],
+    standalone: false
 })
 export class CropComponent  {
   @Input() imageChosen: boolean;

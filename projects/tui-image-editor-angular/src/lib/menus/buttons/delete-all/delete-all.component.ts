@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-delete-all',
-  templateUrl: './delete-all.component.html',
-  styleUrls: ['./delete-all.component.css'],
+    selector: 'tui-image-editor-menus-buttons-delete-all',
+    templateUrl: './delete-all.component.html',
+    styleUrls: ['./delete-all.component.css'],
+    standalone: false
 })
 export class DeleteAllComponent {
   @Input() imageChosen: boolean;

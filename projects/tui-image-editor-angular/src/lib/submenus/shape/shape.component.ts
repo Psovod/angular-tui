@@ -10,9 +10,10 @@ import { defaultColors, eventNames } from '../../consts';
 import { clearSelection, getActiveObjectId } from '../../utils';
 
 @Component({
-  selector: 'tui-image-editor-submenus-shape',
-  templateUrl: './shape.component.html',
-  styleUrls: ['./shape.component.css'],
+    selector: 'tui-image-editor-submenus-shape',
+    templateUrl: './shape.component.html',
+    styleUrls: ['./shape.component.css'],
+    standalone: false
 })
 export class ShapeComponent implements OnChanges, OnDestroy {
   @Input() imageEditor: any;

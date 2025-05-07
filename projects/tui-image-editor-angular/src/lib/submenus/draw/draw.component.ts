@@ -10,9 +10,10 @@ import { defaultColors, eventNames } from '../../consts';
 import { clearSelection, getActiveObjectId } from '../../utils';
 
 @Component({
-  selector: 'tui-image-editor-submenus-draw',
-  templateUrl: './draw.component.html',
-  styleUrls: ['./draw.component.css'],
+    selector: 'tui-image-editor-submenus-draw',
+    templateUrl: './draw.component.html',
+    styleUrls: ['./draw.component.css'],
+    standalone: false
 })
 export class DrawComponent implements OnChanges, OnDestroy {
   @Input() imageEditor: any;

@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-reset',
-  templateUrl: './reset.component.html',
-  styleUrls: ['./reset.component.css'],
+    selector: 'tui-image-editor-menus-buttons-reset',
+    templateUrl: './reset.component.html',
+    styleUrls: ['./reset.component.css'],
+    standalone: false
 })
 export class ResetComponent {
   @Input() imageChosen: boolean;

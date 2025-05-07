@@ -2,9 +2,10 @@ import { Component, Input, OnInit } from '@angular/core';
 import { dataUrlToBlob } from '../../../utils';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-download',
-  templateUrl: './download.component.html',
-  styleUrls: ['./download.component.css'],
+    selector: 'tui-image-editor-menus-buttons-download',
+    templateUrl: './download.component.html',
+    styleUrls: ['./download.component.css'],
+    standalone: false
 })
 export class DownloadComponent {
   @Input() imageChosen: boolean;

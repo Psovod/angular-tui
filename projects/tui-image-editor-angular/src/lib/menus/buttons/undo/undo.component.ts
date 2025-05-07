@@ -10,9 +10,10 @@ import {
 import { eventNames } from '../../../consts';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-undo',
-  templateUrl: './undo.component.html',
-  styleUrls: ['./undo.component.css'],
+    selector: 'tui-image-editor-menus-buttons-undo',
+    templateUrl: './undo.component.html',
+    styleUrls: ['./undo.component.css'],
+    standalone: false
 })
 export class UndoComponent implements OnChanges {
   @Input() imageEditor: any;

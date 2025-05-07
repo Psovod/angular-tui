@@ -10,9 +10,10 @@ import {
 import { eventNames } from '../../../consts';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-redo',
-  templateUrl: './redo.component.html',
-  styleUrls: ['./redo.component.css'],
+    selector: 'tui-image-editor-menus-buttons-redo',
+    templateUrl: './redo.component.html',
+    styleUrls: ['./redo.component.css'],
+    standalone: false
 })
 export class RedoComponent implements OnChanges {
   @Input() imageEditor: any;

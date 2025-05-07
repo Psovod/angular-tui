@@ -2,9 +2,10 @@ import { Component, Input, OnInit } from '@angular/core';
 import { drawingModes, zoomModes } from '../../../consts';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-drag',
-  templateUrl: './drag.component.html',
-  styleUrls: ['./drag.component.css'],
+    selector: 'tui-image-editor-menus-buttons-drag',
+    templateUrl: './drag.component.html',
+    styleUrls: ['./drag.component.css'],
+    standalone: false
 })
 export class DragComponent {
   @Input() imageChosen: boolean;

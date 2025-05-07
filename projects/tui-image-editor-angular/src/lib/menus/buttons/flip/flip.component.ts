@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-flip',
-  templateUrl: './flip.component.html',
-  styleUrls: ['./flip.component.css'],
+    selector: 'tui-image-editor-menus-buttons-flip',
+    templateUrl: './flip.component.html',
+    styleUrls: ['./flip.component.css'],
+    standalone: false
 })
 export class FlipComponent {
   @Input() imageChosen: boolean;

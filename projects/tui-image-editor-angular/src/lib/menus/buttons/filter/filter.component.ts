@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-filter',
-  templateUrl: './filter.component.html',
-  styleUrls: ['./filter.component.css'],
+    selector: 'tui-image-editor-menus-buttons-filter',
+    templateUrl: './filter.component.html',
+    styleUrls: ['./filter.component.css'],
+    standalone: false
 })
 export class FilterComponent {
   @Input() imageChosen: boolean;

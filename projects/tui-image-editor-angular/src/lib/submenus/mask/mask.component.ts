@@ -12,9 +12,10 @@ import { eventNames, historyNames } from '../../consts';
 import { getActiveObjectId, isFileApiSupported } from '../../utils';
 
 @Component({
-  selector: 'tui-image-editor-submenus-mask',
-  templateUrl: './mask.component.html',
-  styleUrls: ['./mask.component.css'],
+    selector: 'tui-image-editor-submenus-mask',
+    templateUrl: './mask.component.html',
+    styleUrls: ['./mask.component.css'],
+    standalone: false
 })
 export class MaskComponent implements OnChanges, OnDestroy {
   @Input() imageEditor: any;

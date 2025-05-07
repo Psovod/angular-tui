@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-shape',
-  templateUrl: './shape.component.html',
-  styleUrls: ['./shape.component.css'],
+    selector: 'tui-image-editor-menus-buttons-shape',
+    templateUrl: './shape.component.html',
+    styleUrls: ['./shape.component.css'],
+    standalone: false
 })
 export class ShapeComponent {
   @Input() imageChosen: boolean;

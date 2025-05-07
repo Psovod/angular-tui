@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-mask',
-  templateUrl: './mask.component.html',
-  styleUrls: ['./mask.component.css'],
+    selector: 'tui-image-editor-menus-buttons-mask',
+    templateUrl: './mask.component.html',
+    styleUrls: ['./mask.component.css'],
+    standalone: false
 })
 export class MaskComponent {
   @Input() imageChosen: boolean;

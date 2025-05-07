@@ -10,9 +10,10 @@ import {
 import { eventNames } from '../../../consts';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-delete',
-  templateUrl: './delete.component.html',
-  styleUrls: ['./delete.component.css'],
+    selector: 'tui-image-editor-menus-buttons-delete',
+    templateUrl: './delete.component.html',
+    styleUrls: ['./delete.component.css'],
+    standalone: false
 })
 export class DeleteComponent implements OnChanges {
   @Input() imageChosen: boolean;

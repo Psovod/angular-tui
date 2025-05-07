@@ -6,9 +6,10 @@ import { HistoryService } from '../../services/history.service';
 import { removeFilter, rgbaToObject } from '../../utils';
 
 @Component({
-  selector: 'tui-image-editor-submenus-filter',
-  templateUrl: './filter.component.html',
-  styleUrls: ['./filter.component.css'],
+    selector: 'tui-image-editor-submenus-filter',
+    templateUrl: './filter.component.html',
+    styleUrls: ['./filter.component.css'],
+    standalone: false
 })
 export class FilterComponent implements OnInit, OnDestroy {
   @Input() imageEditor: any;

@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'tui-image-editor-submenus-rotate',
-  templateUrl: './rotate.component.html',
-  styleUrls: ['./rotate.component.css'],
+    selector: 'tui-image-editor-submenus-rotate',
+    templateUrl: './rotate.component.html',
+    styleUrls: ['./rotate.component.css'],
+    standalone: false
 })
 export class RotateComponent {
   @Input() imageEditor: any;

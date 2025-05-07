@@ -2,9 +2,10 @@ import { Component, Input, OnInit } from '@angular/core';
 import { drawingModes, zoomModes } from '../../../consts';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-zoom-in',
-  templateUrl: './zoom-in.component.html',
-  styleUrls: ['./zoom-in.component.css'],
+    selector: 'tui-image-editor-menus-buttons-zoom-in',
+    templateUrl: './zoom-in.component.html',
+    styleUrls: ['./zoom-in.component.css'],
+    standalone: false
 })
 export class ZoomInComponent {
   @Input() imageChosen: boolean;

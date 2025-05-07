@@ -34,9 +34,10 @@ import {
 import ImageEditor from 'tui-image-editor';
 
 @Component({
-  selector: 'tui-image-editor',
-  templateUrl: 'tui-image-editor.component.html',
-  providers: [HistoryService],
+    selector: 'tui-image-editor',
+    templateUrl: 'tui-image-editor.component.html',
+    providers: [HistoryService],
+    standalone: false
 })
 export class TuiImageEditorComponent
   implements OnInit, OnChanges, AfterViewInit, OnDestroy

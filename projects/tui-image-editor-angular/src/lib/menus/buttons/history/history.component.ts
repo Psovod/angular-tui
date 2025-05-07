@@ -19,9 +19,10 @@ import { HistoryService } from '../../../services/history.service';
 import { getHistoryTitle, isSilentCommand } from '../../../utils';
 
 @Component({
-  selector: 'tui-image-editor-menus-buttons-history',
-  templateUrl: './history.component.html',
-  styleUrls: ['./history.component.css'],
+    selector: 'tui-image-editor-menus-buttons-history',
+    templateUrl: './history.component.html',
+    styleUrls: ['./history.component.css'],
+    standalone: false
 })
 export class HistoryComponent {
   @Input() imageEditor: any;
