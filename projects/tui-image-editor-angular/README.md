@@ -3,17 +3,16 @@
 Based on the UI component of [tui.image-editor](https://github.com/nhn/tui.image-editor).
 
 ## 💾 Install
-*Note: this library only worked with Angular 11.2.0 up to version 0.0.15*
+*Note: this library works with Angular 19*
 <br>
-*Starting from Angular 14 we follow standard Angular version numbering, i.e. library version Y.x.x targets Angular Y.*  
 
 ```sh
-npm install --save tui-image-editor-angular
+npm install --save birdrockres-tui-image-editor-angular
 ```
 
 Add needed package to NgModule imports:
 ```sh
-import { TuiImageEditorModule } from 'tui-image-editor-angular';
+import { TuiImageEditorModule } from 'birdrockres-tui-image-editor-angular';
 
 @NgModule({
   ...

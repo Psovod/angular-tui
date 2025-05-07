@@ -1,5 +1,5 @@
 {
-  "name": "tui-image-editor-angular",
+  "name": "birdrockres-image-editor-angular",
   "version": "19.0.0",
   "peerDependencies": {
     "@angular/common": "^19.0.0",
@@ -10,16 +10,16 @@
     "tslib": "^2.3.0",
     "@ng-bootstrap/ng-bootstrap": "^18.0.0",
     "@popperjs/core": "^2.10.2",
-    "ngx-color-picker": "^19.0.0",
+    "ngx-color-picker": "^18.0.0",
     "fabric": "^5.2.4",
     "tui-image-editor": "3.14.3",
-    "@ngx-translate/core": "^19.0.0"
+    "@ngx-translate/core": "^16.0.0"
   },
   "devDependencies": {
     "@angular/localize": "^19.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aldrashan/angular-tui.git"
+    "url": "https://github.com/Psovod/angular-tui.git"
   }
 }

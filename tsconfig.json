@@ -15,6 +15,10 @@
     "lib": ["es2022", "dom"],
     "paths": {
       "tui-image-editor-angular": ["./dist/tui-image-editor-angular"]
-    }
+    },
+  },
+  "angularCompilerOptions": {
+    "enableIvy": true,
+    "compilationMode": "partial"
   }
 }
